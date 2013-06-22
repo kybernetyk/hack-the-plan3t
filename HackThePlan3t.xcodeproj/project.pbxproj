@@ -13,6 +13,8 @@
 		3545A7BA1775BE4800764B04 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3545A7B81775BE4800764B04 /* Credits.rtf */; };
 		3545A7BD1775BE4800764B04 /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3545A7BC1775BE4800764B04 /* CMAppDelegate.m */; };
 		3545A7C01775BE4800764B04 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3545A7BE1775BE4800764B04 /* MainMenu.xib */; };
+		3545A7C71775BE8200764B04 /* pertuberator.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3545A7C61775BE8200764B04 /* pertuberator.gif */; };
+		3545A7CA1775BEC000764B04 /* CMMatrixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3545A7C91775BEC000764B04 /* CMMatrixView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		3545A7BB1775BE4800764B04 /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
 		3545A7BC1775BE4800764B04 /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
 		3545A7BF1775BE4800764B04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3545A7C61775BE8200764B04 /* pertuberator.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pertuberator.gif; sourceTree = "<group>"; };
+		3545A7C81775BEC000764B04 /* CMMatrixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMatrixView.h; sourceTree = "<group>"; };
+		3545A7C91775BEC000764B04 /* CMMatrixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMatrixView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,8 @@
 				3545A7BC1775BE4800764B04 /* CMAppDelegate.m */,
 				3545A7BE1775BE4800764B04 /* MainMenu.xib */,
 				3545A7B01775BE4800764B04 /* Supporting Files */,
+				3545A7C81775BEC000764B04 /* CMMatrixView.h */,
+				3545A7C91775BEC000764B04 /* CMMatrixView.m */,
 			);
 			path = HackThePlan3t;
 			sourceTree = "<group>";
@@ -93,6 +100,7 @@
 		3545A7B01775BE4800764B04 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3545A7C61775BE8200764B04 /* pertuberator.gif */,
 				3545A7B11775BE4800764B04 /* HackThePlan3t-Info.plist */,
 				3545A7B21775BE4800764B04 /* InfoPlist.strings */,
 				3545A7B51775BE4800764B04 /* main.m */,
@@ -157,6 +165,7 @@
 				3545A7B41775BE4800764B04 /* InfoPlist.strings in Resources */,
 				3545A7BA1775BE4800764B04 /* Credits.rtf in Resources */,
 				3545A7C01775BE4800764B04 /* MainMenu.xib in Resources */,
+				3545A7C71775BE8200764B04 /* pertuberator.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +178,7 @@
 			files = (
 				3545A7B61775BE4800764B04 /* main.m in Sources */,
 				3545A7BD1775BE4800764B04 /* CMAppDelegate.m in Sources */,
+				3545A7CA1775BEC000764B04 /* CMMatrixView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

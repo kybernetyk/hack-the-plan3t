@@ -10,9 +10,13 @@
 
 @implementation CMAppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-	// Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+	NSScreen *s = [self.window screen];
+	NSRect frm = s.frame;
+	[self.window setIgnoresMouseEvents:YES];
+	[self.window setLevel: kCGDesktopIconWindowLevel - 1];
+	[self.window setFrame: frm display: YES];
+	[self.window setCollectionBehavior: NSWindowCollectionBehaviorCanJoinAllSpaces];
 }
 
 @end
