@@ -1,6 +1,6 @@
 Simple OS X app that will show this
 
-![The Plague is sooooo coool!](-add-later.png)
+![The Plague is sooooo coool!](https://raw.github.com/kybernetyk/hack-the-plan3t/master/HackThePlan3t/pertuberator.gif)
 
 as your desktop wallpaper.
 
