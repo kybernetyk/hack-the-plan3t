@@ -4,6 +4,8 @@ Simple OS X app that will show this
 
 as your desktop wallpaper.
 
+Screenshot:
+![Markdown is brain-dead!](http://raw.github.com/kybernetyk/hack-the-plan3t/master/screenshot.png)
 
 License for code: GPL3
 License for the gif: I found it on the interwebs.
